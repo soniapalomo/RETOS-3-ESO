@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Correo Microsoft</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background-color:#f3f3f3;
+    margin:0;
+    padding:40px;
+}
+
+.email{
+    max-width:760px;
+    margin:auto;
+    background:white;
+    border:1px solid #ddd;
+    border-radius:8px;
+    overflow:hidden;
+}
+
+.header{
+    background:#f8f8f8;
+    padding:18px 28px;
+    border-bottom:1px solid #ddd;
+}
+
+.meta{
+    font-size:14px;
+    color:#444;
+    line-height:1.6;
+}
+
+.meta strong{
+    color:#222;
+}
+
+.sender{
+    color:#222;
+    text-decoration:none;
+}
+
+.sender:hover{
+    text-decoration:underline;
+}
+
+.content{
+    padding:30px;
+}
+
+.logo{
+    color:#0078d4;
+    font-size:30px;
+    font-weight:bold;
+    margin-bottom:25px;
+}
+
+h2{
+    font-size:22px;
+    color:#222;
+    margin-top:0;
+}
+
+p{
+    font-size:16px;
+    color:#333;
+    line-height:1.5;
+}
+
+.button{
+    display:inline-block;
+    background:#0078d4;
+    color:white;
+    text-decoration:none;
+    padding:12px 24px;
+    border-radius:4px;
+    font-weight:bold;
+    margin-top:18px;
+}
+
+.button:hover{
+    background:#106ebe;
+}
+
+.footer{
+    margin-top:35px;
+    padding-top:18px;
+    border-top:1px solid #ddd;
+    color:#666;
+    font-size:12px;
+    line-height:1.5;
+}
+</style>
+</head>
+
+<body>
+
+<div class="email">
+
+    <div class="header">
+        <div class="meta">
+            <div>
+                <strong>De:</strong>
+                <a href="mailto:notificaciones@microsoft-documentos.com" class="sender">
+                    Microsoft OneDrive
+                </a>
+            </div>
+
+            <div><strong>Para:</strong> alumno@centroeducativo.es</div>
+
+            <div><strong>Asunto:</strong> Nuevo documento compartido contigo</div>
+        </div>
+    </div>
+
+    <div class="content">
+
+        <div class="logo">Microsoft</div>
+
+        <h2>Te han compartido un documento en OneDrive</h2>
+
+        <p>
+            Un usuario de tu centro educativo ha compartido contigo un documento mediante Microsoft OneDrive.
+        </p>
+
+        <p>
+            Puedes revisar el archivo desde el siguiente enlace.
+        </p>
+
+        <a class="button"
+           href="https://microsoft-documentos.com/onedrive/documento-compartido">
+           Abrir documento
+        </a>
+
+        <div class="footer">
+            Microsoft OneDrive<br>
+            Este mensaje se ha enviado automáticamente. No respondas a este correo.
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
